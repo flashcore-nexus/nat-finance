@@ -1,0 +1,45 @@
+name: Publicar Pages (autorização necessária)
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: 'Depois da autorização do responsável, digite PUBLICAR NAT FINANCE'
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: vars.PAGES_PUBLICATION_APPROVED == 'true' && inputs.confirmation == 'PUBLICAR NAT FINANCE'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run build
+      - run: npm run check
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar arquivos estáticos
+        id: deployment
+        uses: actions/deploy-pages@v4
