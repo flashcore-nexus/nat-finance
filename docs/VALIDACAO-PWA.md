@@ -1,5 +1,7 @@
 # Validação da entrega PWA 1.5.0
 
+Este é o relatório da preparação local, anterior à autorização de publicação. Para o resultado posterior em HTTPS público e no GitHub Actions, consulte [Publicação verificada](PUBLICACAO-VERIFICADA.md).
+
 Build da entrega: `6399f3b5a8c34d9de4731b63`. Execução em 24/11/2026, Windows, Chrome instalado em modo automatizado, HTTP em localhost. Dados fictícios e perfis de navegador isolados. Nenhum perfil financeiro real do usuário foi aberto ou modificado.
 
 ## Preservação anterior às alterações

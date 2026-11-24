@@ -2,7 +2,7 @@
 
 PWA 1.5.0, derivado da versão HTML 1.4. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. A estrutura é o ponto de partida para futuras melhorias.
 
-Endereço definitivo: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). Publicação autorizada pelo responsável em 24/11/2026. O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
+Endereço definitivo: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). Publicação autorizada e verificada em 24/11/2026; [relatório de implantação e testes](docs/PUBLICACAO-VERIFICADA.md). O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
 
 ## Executar
 
@@ -69,4 +69,4 @@ Não altere o nome/esquema do banco, formato JSON, regras de centavos, parcelas 
 
 ## Publicação no GitHub Pages
 
-Veja [GitHub Pages e autorização](docs/PUBLICACAO.md). A validação automática não publica. A publicação é manual, exige uma variável de liberação e a frase de confirmação. Só `dist/` é enviado ao Pages. Os dados inseridos posteriormente continuam no navegador. O relatório de implantação e a verificação do endereço público serão registrados em `docs/PUBLICACAO-VERIFICADA.md`.
+Veja [GitHub Pages e autorização](docs/PUBLICACAO.md). A validação automática não publica. A publicação é manual, exige uma variável de liberação e a frase de confirmação. Só `dist/` é enviado ao Pages. Os dados inseridos posteriormente continuam no navegador. Os resultados de implantação, CI e testes no endereço público estão em [Publicação verificada](docs/PUBLICACAO-VERIFICADA.md). Para repetir o teste público isolado com dados fictícios, use `npm run test:published` com Playwright instalado.
