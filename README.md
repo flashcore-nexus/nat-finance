@@ -1,8 +1,8 @@
 # Nat Finance · by FlashCore
 
-PWA 1.5.0, derivado da versão HTML 1.4. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. A estrutura é o ponto de partida para futuras melhorias.
+PWA 2.0.0 em revisão local: refinamento da interface sobre a estrutura 1.5.0 já publicada, sem recriar o aplicativo. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para mudanças, execução e revisão. **A V2.0 ainda não foi publicada; aguarda autorização.**
 
-Endereço definitivo: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). Publicação autorizada e verificada em 24/11/2026; [relatório de implantação e testes](docs/PUBLICACAO-VERIFICADA.md). O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
+Endereço de produção, ainda na versão **1.5.0**: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A publicação 1.5.0 foi autorizada e verificada em 24/11/2026; [relatório dessa implantação](docs/PUBLICACAO-VERIFICADA.md). O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
 
 ## Executar
 
@@ -53,6 +53,7 @@ Teste manual: importe um JSON de teste, registre uma despesa, feche/reabra o nav
 | --- | --- |
 | `src/engine.js`, `src/storage.js` | Motor e persistência preservados |
 | `src/app.js`, formulários, navegação e importadores | Aplicativo existente e proteção de trabalho durante atualizações |
+| `src/view.js`, `src/minimal.css` | Apresentação V2.0, sem motor financeiro duplicado |
 | `src/pwa.js`, `src/sw.js`, `src/pwa.css` | Instalação, atualização e cache offline |
 | `public/manifest.webmanifest`, `public/icons/` | Manifest e ícones locais |
 | `vendor/`, `Licencas/` | Bibliotecas, modelos OCR e licenças para uso offline |
