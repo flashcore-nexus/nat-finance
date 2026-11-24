@@ -1,0 +1,21 @@
+{
+  "name": "nat-finance-offline",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Controle financeiro offline com continuidade mensal",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/engine.test.js tests/expense-import.test.js tests/transactions-v1_3.test.js tests/consolidated-v1_4.test.js",
+    "start": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test:browser": "node tests/pwa-browser.test.cjs",
+    "check": "node scripts/check-dist.mjs",
+    "test:ui": "node tests/pwa-ui.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

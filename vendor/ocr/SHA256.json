@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7B0F1749AA255A593B14160C75F74690BE740EDCAE94C5A45EFC24AB50235F4D",
+    "Path": "C:\\Users\\FLASH-PC\\Documents\\ChatGPT\\App - Financeiro\\vendor\\ocr\\por.traineddata.gz"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "18C1AC52B75E35D44735FB6C2A60ACFAF23033524653200738E98F0243EDB75B",
+    "Path": "C:\\Users\\FLASH-PC\\Documents\\ChatGPT\\App - Financeiro\\vendor\\ocr\\eng.traineddata.gz"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "EEF5F8B2F8E20E150680B20ADAEC4A60BABAFEE3ADBE8A94583C81FEE46E8680",
+    "Path": "C:\\Users\\FLASH-PC\\Documents\\ChatGPT\\App - Financeiro\\vendor\\ocr\\core.wasm.js"
+  }
+]

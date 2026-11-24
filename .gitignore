@@ -1,0 +1,12 @@
+# Dados, cópias preventivas e resultados locais nunca entram na publicação.
+Backups/
+dist/
+node_modules/
+tests/evidence*/
+tests/.pwa-releases/
+*.zip
+Nat_Finance_v*.html
+*.json.backup
+Douglas_*.json
+Vanessa_*.json
+.DS_Store

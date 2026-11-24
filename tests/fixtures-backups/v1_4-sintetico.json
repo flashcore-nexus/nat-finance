@@ -1,0 +1,435 @@
+{
+  "app": "Nat Finance",
+  "formatVersion": 1,
+  "type": "full",
+  "exportedAt": "2026-11-22T00:20:00.848Z",
+  "reference": "2026-11",
+  "profile": {
+    "id": "49fc391d-c716-4b44-9ea7-4e556403a0fe",
+    "name": "Douglas",
+    "updatedAt": "2026-11-22T00:20:00.715Z",
+    "lastBackup": null,
+    "accounts": [
+      {
+        "id": "bank",
+        "name": "Banco pessoal",
+        "initial": 100000
+      },
+      {
+        "id": "5d829bad-a161-40b6-9de3-4be6440cf7fa",
+        "name": "Carteira UI",
+        "initial": 10000,
+        "type": "cash"
+      }
+    ],
+    "cards": [
+      {
+        "id": "n-card",
+        "name": "Nubank Douglas",
+        "closeDay": 20,
+        "dueDay": 28,
+        "limit": 1000000
+      },
+      {
+        "id": "i-card",
+        "name": "Itaú Uniclass Douglas",
+        "closeDay": 20,
+        "dueDay": 28,
+        "limit": 1000000
+      }
+    ],
+    "categories": [
+      {
+        "id": "41836c0f-c60b-493e-920e-877bd1931716",
+        "name": "Moradia"
+      },
+      {
+        "id": "56bbe6e7-b410-4103-a707-efaa219af412",
+        "name": "Alimentação"
+      },
+      {
+        "id": "0449f1d7-e055-42eb-b984-d557188f2dc5",
+        "name": "Transporte"
+      },
+      {
+        "id": "9d116414-9777-49ef-8c7b-0b5e13ab8871",
+        "name": "Saúde"
+      },
+      {
+        "id": "f39ac1a8-e506-4fad-82c3-efaa0954ba86",
+        "name": "Educação"
+      },
+      {
+        "id": "2bc0cb0c-a6d8-4036-9fe3-c1d5fd1488ab",
+        "name": "Lazer"
+      },
+      {
+        "id": "5277d13a-4703-4883-8a6f-97795c6529d5",
+        "name": "Assinaturas"
+      },
+      {
+        "id": "44eed9e8-b7a1-4b6b-a04a-7ad98f0a40bb",
+        "name": "Salário"
+      },
+      {
+        "id": "05911852-15b3-43b1-bcf6-dc87acf3db93",
+        "name": "Outros"
+      }
+    ],
+    "entries": [
+      {
+        "kind": "expense",
+        "description": "Histórico outubro",
+        "amount": 1234,
+        "accountId": "bank",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2026-10-10",
+        "month": "2026-10",
+        "id": "dfcc1d7f-a967-4ce4-8d8c-2f2b78b46a37"
+      },
+      {
+        "number": 1,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2026-09-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2026-09",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:1",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "number": 2,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2026-10-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2026-10",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:2",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "number": 3,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2026-11-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2026-11",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:3",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "number": 4,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2026-12-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2026-12",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:4",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "number": 5,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2027-01-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2027-01",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:5",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "number": 6,
+        "count": 6,
+        "kind": "card",
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "date": "2027-02-28",
+        "purchaseDate": "2026-09-01",
+        "month": "2027-02",
+        "description": "Bello Fruto",
+        "notes": "",
+        "amount": 10000,
+        "estimated": false,
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "id": "part:31510c50-4d32-4e72-b973-6713f1c209e6:6",
+        "purchaseId": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "id": "occ:582ac85b-4d41-45e9-ab0a-81c660200944:2026-11",
+        "ruleId": "582ac85b-4d41-45e9-ab0a-81c660200944",
+        "kind": "expense",
+        "expenseClass": "fixed",
+        "description": "Assinatura",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "accountId": "bank",
+        "date": "2026-11-10",
+        "month": "2026-11",
+        "amount": 2000,
+        "estimated": false,
+        "notes": ""
+      },
+      {
+        "id": "occ:5b6059b3-a71f-44ba-a01d-9d7efd25921e:2026-11",
+        "ruleId": "5b6059b3-a71f-44ba-a01d-9d7efd25921e",
+        "kind": "income",
+        "expenseClass": null,
+        "description": "Salário",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "accountId": "bank",
+        "date": "2026-11-10",
+        "month": "2026-11",
+        "amount": 200000,
+        "estimated": false,
+        "notes": ""
+      },
+      {
+        "kind": "expense",
+        "paymentMethod": "cash",
+        "description": "Dinheiro V1.4",
+        "amount": 500,
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "expenseClass": "variable",
+        "movementDate": "2026-11-10",
+        "date": "2026-11-10",
+        "month": "2026-11",
+        "accountId": "5d829bad-a161-40b6-9de3-4be6440cf7fa",
+        "toAccountId": null,
+        "cardId": null,
+        "estimated": false,
+        "notes": "",
+        "purchaseDate": null,
+        "id": "54064bf5-0912-42eb-92a8-a1f3854793f2"
+      }
+    ],
+    "settlements": [
+      {
+        "id": "9cec59bf-f96c-40fa-96d6-02e25b660163",
+        "sourceId": "occ:582ac85b-4d41-45e9-ab0a-81c660200944:2026-11",
+        "sourceType": "entry",
+        "accountId": "bank",
+        "date": "2026-11-10",
+        "amount": 2000,
+        "obligationMonth": "2026-11"
+      },
+      {
+        "id": "9be63f18-20fa-4303-9249-fa3537ee5bab",
+        "sourceId": "occ:5b6059b3-a71f-44ba-a01d-9d7efd25921e:2026-11",
+        "sourceType": "entry",
+        "accountId": "bank",
+        "date": "2026-11-10",
+        "amount": 200000,
+        "obligationMonth": "2026-11"
+      },
+      {
+        "id": "dc48abda-af9c-4163-8b10-e64188781fb3",
+        "sourceId": "54064bf5-0912-42eb-92a8-a1f3854793f2",
+        "sourceType": "entry",
+        "accountId": "5d829bad-a161-40b6-9de3-4be6440cf7fa",
+        "date": "2026-11-10",
+        "amount": 500,
+        "obligationMonth": "2026-11"
+      }
+    ],
+    "rules": [
+      {
+        "kind": "expense",
+        "description": "Assinatura",
+        "amount": 2000,
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "accountId": "bank",
+        "day": 10,
+        "every": 1,
+        "start": "2026-11-01",
+        "end": null,
+        "active": true,
+        "variable": false,
+        "id": "582ac85b-4d41-45e9-ab0a-81c660200944",
+        "effectiveFrom": "2026-11"
+      },
+      {
+        "kind": "income",
+        "description": "Salário",
+        "amount": 200000,
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "accountId": "bank",
+        "day": 10,
+        "every": 1,
+        "start": "2026-11-01",
+        "end": null,
+        "active": true,
+        "variable": false,
+        "id": "5b6059b3-a71f-44ba-a01d-9d7efd25921e",
+        "effectiveFrom": "2026-11"
+      }
+    ],
+    "purchases": [
+      {
+        "cardId": "n-card",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "description": "Bello Fruto",
+        "amount": 60000,
+        "count": 6,
+        "date": "2026-09-01",
+        "paymentMethod": "credit",
+        "expenseClass": "variable",
+        "estimated": false,
+        "id": "31510c50-4d32-4e72-b973-6713f1c209e6",
+        "firstMonth": "2026-09"
+      }
+    ],
+    "budgets": [
+      {
+        "id": "budget:41836c0f-c60b-493e-920e-877bd1931716:2026-11",
+        "month": "2026-11",
+        "categoryId": "41836c0f-c60b-493e-920e-877bd1931716",
+        "amount": 50000,
+        "carry": true
+      }
+    ],
+    "goals": [
+      {
+        "id": "goal",
+        "name": "Reserva",
+        "target": 100000,
+        "active": true
+      }
+    ],
+    "contributions": [
+      {
+        "id": "contribution",
+        "goalId": "goal",
+        "date": "2026-11-10",
+        "amount": 10000
+      }
+    ],
+    "periods": [
+      {
+        "id": "period:2026-10",
+        "month": "2026-10",
+        "closed": false,
+        "createdAt": "2026-11-22T00:19:57.681Z",
+        "reopened": false
+      },
+      {
+        "id": "period:2026-09",
+        "month": "2026-09",
+        "closed": false,
+        "createdAt": "2026-11-22T00:19:57.682Z",
+        "reopened": false
+      },
+      {
+        "id": "period:2026-11",
+        "month": "2026-11",
+        "closed": false,
+        "createdAt": "2026-11-22T00:19:57.683Z",
+        "reopened": false
+      }
+    ],
+    "audit": [
+      {
+        "id": "8ca24ddd-ab02-45cd-a8d0-c88ac5fb1544",
+        "at": "2026-11-22T00:19:57.681Z",
+        "action": "Criar lançamento",
+        "detail": "dfcc1d7f-a967-4ce4-8d8c-2f2b78b46a37"
+      },
+      {
+        "id": "e07a4452-38ce-4a5e-8249-cc5a88c7bdd7",
+        "at": "2026-11-22T00:19:57.682Z",
+        "action": "Criar compra",
+        "detail": "31510c50-4d32-4e72-b973-6713f1c209e6"
+      },
+      {
+        "id": "3f0492e7-7b1d-45b8-af48-fb23883df1fb",
+        "at": "2026-11-22T00:19:57.682Z",
+        "action": "Salvar recorrência",
+        "detail": "582ac85b-4d41-45e9-ab0a-81c660200944"
+      },
+      {
+        "id": "5ed33e7f-f66b-4c7a-be10-1c7060c58803",
+        "at": "2026-11-22T00:19:57.682Z",
+        "action": "Salvar recorrência",
+        "detail": "5b6059b3-a71f-44ba-a01d-9d7efd25921e"
+      },
+      {
+        "id": "a4c2c906-a5e0-4d9a-86eb-b14eee208d48",
+        "at": "2026-11-22T00:19:57.683Z",
+        "action": "Iniciar/completar mês",
+        "detail": " / 2026-11"
+      },
+      {
+        "id": "1cb53ad2-35ff-486b-9042-bb4e4413fb5d",
+        "at": "2026-11-22T00:19:57.683Z",
+        "action": "Registrar baixa",
+        "detail": "occ:582ac85b-4d41-45e9-ab0a-81c660200944:2026-11"
+      },
+      {
+        "id": "2e8a7ee5-ed1d-44c5-ae1a-c1e8869791f4",
+        "at": "2026-11-22T00:19:57.683Z",
+        "action": "Registrar baixa",
+        "detail": "occ:5b6059b3-a71f-44ba-a01d-9d7efd25921e:2026-11"
+      },
+      {
+        "id": "0db531fb-65c9-49c9-9f5f-66f8d4c9ca04",
+        "at": "2026-11-22T00:20:00.365Z",
+        "action": "Salvar conta",
+        "detail": ""
+      },
+      {
+        "id": "02316a6f-292a-4c58-b21d-85c75c0229a7",
+        "at": "2026-11-22T00:20:00.715Z",
+        "action": "Criar lançamento",
+        "detail": "54064bf5-0912-42eb-92a8-a1f3854793f2"
+      },
+      {
+        "id": "e9e643b3-310b-41cb-98b3-e2b67870fde7",
+        "at": "2026-11-22T00:20:00.715Z",
+        "action": "Registrar baixa",
+        "detail": "54064bf5-0912-42eb-92a8-a1f3854793f2"
+      }
+    ],
+    "importRules": [],
+    "importHistory": [],
+    "importKeys": []
+  }
+}
