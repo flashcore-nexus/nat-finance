@@ -1,6 +1,6 @@
 # Nat Finance V2.0 · interface minimalista
 
-Versão local em revisão. A V2.0 não foi enviada ao repositório público nem implantada. A produção continua na versão 1.5.0 em https://flashcore-nexus.github.io/nat-finance/. A implantação desta atualização depende de nova autorização do responsável, depois da revisão.
+Publicação V2.0 expressamente autorizada em 24/11/2026 para https://flashcore-nexus.github.io/nat-finance/. O resultado da implantação e dos testes públicos será registrado em `V2_0-PUBLICACAO.md`. Este documento descreve o redesign e seus testes locais.
 
 ## O que mudou
 
@@ -31,7 +31,7 @@ node scripts/check-dist.mjs
 node scripts/serve.mjs
 ```
 
-Abra http://localhost:4173/nat-finance/. Também pode usar `Iniciar Nat Finance PWA.cmd`. O site público continuará na versão anterior até a publicação autorizada. HTML antigo, localhost e site público têm armazenamentos distintos; a transferência entre origens continua sendo por backup JSON completo de cada perfil.
+Abra http://localhost:4173/nat-finance/. Também pode usar `Iniciar Nat Finance PWA.cmd`. O relatório de publicação identifica a geração confirmada no endereço público. HTML antigo, localhost e site público têm armazenamentos distintos; a transferência entre origens continua sendo por backup JSON completo de cada perfil.
 
 ## Verificações
 

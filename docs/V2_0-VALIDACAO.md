@@ -47,7 +47,7 @@ Evidências locais: `tests/evidence-v2/`, `tests/evidence-v2-migration/`, `tests
 
 ## Limites e publicação
 
-**A V2.0 não foi publicada nem enviada ao repositório público.** O endereço de produção continua na versão 1.5.0. A atualização depende de autorização expressa após revisão.
+Este relatório registra a validação local anterior à autorização. A publicação V2.0 foi autorizada em 24/11/2026; a conferência posterior em HTTPS público é registrada separadamente em `V2_0-PUBLICACAO.md`.
 
 Não foram executados para a V2.0: teste em iPhone/Safari físico, instalação pelo sistema operacional, publicação HTTPS real ou execução no GitHub Actions. A compatibilidade de layout e os critérios de instalação do Chromium não comprovam essas plataformas. A precisão do OCR continua aproximada e exige conferência humana.
 
