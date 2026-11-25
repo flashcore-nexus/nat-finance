@@ -1,8 +1,8 @@
 # Nat Finance · by FlashCore
 
-PWA 2.0.0: refinamento da interface sobre a estrutura 1.5.0 já publicada, sem recriar o aplicativo. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para mudanças, execução e revisão. **Publicação V2.0 autorizada em 24/11/2026.** A conferência do endereço público será registrada em `docs/V2_0-PUBLICACAO.md`.
+PWA 2.0.0: refinamento da interface sobre a estrutura 1.5.0 já publicada, sem recriar o aplicativo. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para mudanças, execução e revisão. **V2.0 publicada e verificada em 24/11/2026.** [Relatório da implantação e preservação dos dados](docs/V2_0-PUBLICACAO.md).
 
-Endereço definitivo de produção: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A publicação 1.5.0 foi autorizada e verificada em 24/11/2026; [relatório dessa implantação](docs/PUBLICACAO-VERIFICADA.md). O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
+Endereço definitivo de produção: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A versão atual é **2.0.0**; [validação em HTTPS e atualização dos dados locais](docs/V2_0-PUBLICACAO.md). O [relatório 1.5.0](docs/PUBLICACAO-VERIFICADA.md) é histórico. O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
 
 ## Executar
 
@@ -70,4 +70,4 @@ Não altere o nome/esquema do banco, formato JSON, regras de centavos, parcelas 
 
 ## Publicação no GitHub Pages
 
-Veja [GitHub Pages e autorização](docs/PUBLICACAO.md). A validação automática não publica. A publicação é manual, exige uma variável de liberação e a frase de confirmação. Só `dist/` é enviado ao Pages. Os dados inseridos posteriormente continuam no navegador. Os resultados de implantação, CI e testes no endereço público estão em [Publicação verificada](docs/PUBLICACAO-VERIFICADA.md). Para repetir o teste público isolado com dados fictícios, use `npm run test:published` com Playwright instalado.
+Veja [GitHub Pages e autorização](docs/PUBLICACAO.md). A validação automática não publica. A publicação é manual, exige uma variável de liberação e a frase de confirmação. Só `dist/` é enviado ao Pages. Os dados inseridos posteriormente continuam no navegador. Os resultados de implantação, CI e testes no endereço público estão em [Publicação V2.0 verificada](docs/V2_0-PUBLICACAO.md). Para repetir o teste público isolado com dados fictícios, use `npm run test:published` com Playwright instalado.

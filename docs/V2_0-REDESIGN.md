@@ -1,6 +1,6 @@
 # Nat Finance V2.0 · interface minimalista
 
-Publicação V2.0 expressamente autorizada em 24/11/2026 para https://flashcore-nexus.github.io/nat-finance/. O resultado da implantação e dos testes públicos será registrado em `V2_0-PUBLICACAO.md`. Este documento descreve o redesign e seus testes locais.
+Publicação V2.0 expressamente autorizada em 24/11/2026 para https://flashcore-nexus.github.io/nat-finance/. A implantação e os testes no endereço público foram concluídos; consulte [Publicação V2.0 verificada](V2_0-PUBLICACAO.md). Este documento descreve o redesign e seus testes locais.
 
 ## O que mudou
 
@@ -52,4 +52,4 @@ O resultado final e os limites de verificação são registrados em `V2_0-VALIDA
 
 ## Limites
 
-Layout em largura de iPhone e áreas seguras no CSS não equivalem a teste em iPhone físico. Instalação real pelo sistema e Safari/iPhone físico continuam pendentes. A versão nova ainda não foi implantada em HTTPS público nem executada no GitHub Actions; os testes são locais. Formatos, limites e precisão do OCR continuam sujeitos às restrições existentes e à conferência manual. Nenhuma interpretação financeira por IA externa foi adicionada.
+Layout em largura de iPhone e áreas seguras no CSS não equivalem a teste em iPhone físico. Instalação real pelo sistema e Safari/iPhone físico continuam pendentes. A etapa local descrita aqui foi complementada por implantação em HTTPS e execução no GitHub Actions, conforme [relatório de publicação](V2_0-PUBLICACAO.md). Formatos, limites e precisão do OCR continuam sujeitos às restrições existentes e à conferência manual. Nenhuma interpretação financeira por IA externa foi adicionada.

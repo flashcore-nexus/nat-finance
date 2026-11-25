@@ -49,6 +49,6 @@ Evidências locais: `tests/evidence-v2/`, `tests/evidence-v2-migration/`, `tests
 
 Este relatório registra a validação local anterior à autorização. A publicação V2.0 foi autorizada em 24/11/2026; a conferência posterior em HTTPS público é registrada separadamente em `V2_0-PUBLICACAO.md`.
 
-Não foram executados para a V2.0: teste em iPhone/Safari físico, instalação pelo sistema operacional, publicação HTTPS real ou execução no GitHub Actions. A compatibilidade de layout e os critérios de instalação do Chromium não comprovam essas plataformas. A precisão do OCR continua aproximada e exige conferência humana.
+Na etapa local deste relatório, ainda não haviam sido executados testes em HTTPS público ou GitHub Actions. Essas verificações posteriores passaram e estão descritas em [Publicação V2.0](V2_0-PUBLICACAO.md). Teste em iPhone/Safari físico e instalação pelo sistema operacional continuam pendentes; layout móvel e critérios do Chromium não comprovam essas plataformas. A precisão do OCR continua aproximada e exige conferência humana.
 
 Nenhum banco online, autenticação, sincronização ou nova funcionalidade financeira foi introduzido.
