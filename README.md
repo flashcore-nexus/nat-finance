@@ -1,5 +1,7 @@
 # Nat Finance · by FlashCore
 
+**Revisão local 2.0.1 pronta para avaliação:** Visão geral somente para consulta, Cadastros reunidos e navegação por finalidade. A publicação pública continua na V2.0.0; esta revisão ainda não foi publicada. Veja [alterações e testes da navegação 2.0.1](docs/NAVEGACAO-2_0_1.md).
+
 PWA 2.0.0: refinamento da interface sobre a estrutura 1.5.0 já publicada, sem recriar o aplicativo. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para mudanças, execução e revisão. **V2.0 publicada e verificada em 24/11/2026.** [Relatório da implantação e preservação dos dados](docs/V2_0-PUBLICACAO.md).
 
 Endereço definitivo de produção: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A versão atual é **2.0.0**; [validação em HTTPS e atualização dos dados locais](docs/V2_0-PUBLICACAO.md). O [relatório 1.5.0](docs/PUBLICACAO-VERIFICADA.md) é histórico. O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
@@ -14,7 +16,7 @@ node scripts/check-dist.mjs
 node scripts/serve.mjs
 ```
 
-Abra **http://localhost:4173/nat-finance/** no Chrome ou Edge. Aguarde “Cache offline completo” em **Aplicativo e versão** antes de desconectar. O servidor atende somente este computador. Encerre com Ctrl+C. Abrir `dist/index.html` por duplo clique não instala o PWA. Não use navegação anônima para seus dados definitivos.
+Abra **http://localhost:4173/nat-finance/** no Chrome ou Edge. Na revisão 2.0.1, acesse **Mais → Sobre o aplicativo → Aplicativo e versão** e aguarde “Cache offline completo” antes de desconectar. O servidor atende somente este computador. Encerre com Ctrl+C. Abrir `dist/index.html` por duplo clique não instala o PWA. Não use navegação anônima para seus dados definitivos.
 
 Com npm instalado, os equivalentes são `npm run build`, `npm run check` e `npm start`. O aplicativo pronto não depende de Node nem npm: a hospedagem entrega somente arquivos estáticos.
 

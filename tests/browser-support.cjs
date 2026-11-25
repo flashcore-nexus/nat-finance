@@ -10,13 +10,13 @@ exports.reveal=async locator=>{
  for(let i=await details.count()-1;i>=0;i--){const d=details.nth(i);if(await d.getAttribute('open')===null)await d.locator(':scope>summary').click();}
 };
 exports.navigate=async(page,name)=>{
- name=name==='Visão geral'?'Início':name;
- const primary=['Início','Lançamentos','Cartões','Mais'],mobile=await page.locator('#bottom-nav').isVisible();
- const nav=page.locator(mobile?'#bottom-nav':'#nav');
- if(primary.includes(name)){await nav.getByRole('button',{name,exact:true}).click();return;}
- await nav.getByRole('button',{name:'Mais',exact:true}).click();await page.locator('#main').getByRole('button',{name:new RegExp('^'+name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'))}).click();
+ const ids={'Início':'dashboard','Visão geral':'dashboard','Lançamentos':'entries','Cartões':'cards','Mais':'more','Importar despesas':'imports','Cadastros':'registrations','Contas bancárias':'accounts','Cartões de crédito':'card-register','Categorias':'categories','Contas fixas':'rules','Receitas recorrentes':'income-rules','Perfis financeiros':'profiles','Orçamentos e metas':'planning','Meses e fechamentos':'months','Relatórios':'reports','Backup e restauração':'backups','Configurações':'settings','Sobre o aplicativo':'about'},id=ids[name];if(!id)throw Error('Destino desconhecido: '+name);
+ const mobile=await page.locator('#bottom-nav').isVisible(),primary=['dashboard','entries','cards','more'];
+ if(mobile){const nav=page.locator('#bottom-nav');if(primary.includes(id)){await nav.locator('[data-page="'+id+'"]').click();return;}await nav.locator('[data-page=more]').click();if(id==='registrations'||['accounts','card-register','categories','rules','income-rules','profiles'].includes(id)){await page.locator('#main [data-page=registrations]').click();if(id==='registrations')return;}const target=page.locator('#main [data-page="'+id+'"]');await exports.reveal(target);await target.click();return;}
+ if(id==='registrations'||id==='more'){const summary=page.locator('[data-nav-group="'+(id==='registrations'?'registrations':'more')+'"]');if(await summary.getAttribute('aria-expanded')==='true')await summary.click();await summary.click();return;}
+ const target=page.locator('#nav [data-page="'+id+'"]');await exports.reveal(target);await target.click();
 };
-exports.openPwa=async page=>{if(await page.locator('#pwa-panel').isVisible())return;await exports.navigate(page,'Mais');await page.locator('#main [data-action=app-info]').click();};
+exports.openPwa=async page=>{if(await page.locator('#pwa-panel').isVisible())return;await exports.navigate(page,'Sobre o aplicativo');await page.locator('#main [data-action=app-info]').click();};
 exports.fillFields=async(page,id,values)=>{
  const purchase=id==='purchase-form';if(purchase&&await page.locator('#entry-form').count())id='entry-form';
  const f=page.locator('#'+id);

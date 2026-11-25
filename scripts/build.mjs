@@ -10,7 +10,7 @@ export function build({out=path.join(root,'dist'),version=JSON.parse(read('packa
  fs.mkdirSync(out,{recursive:true});const files={};
  const put=(name,body)=>{const bytes=Buffer.isBuffer(body)?body:Buffer.from(body);const target=path.join(out,name);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,bytes);files['./'+name]=sha(bytes);return './'+name;};
  const asset=(name,body,ext)=>put(`assets/${name}.${sha(body).slice(0,16)}.${ext}`,body);
- const css=asset('styles',read('src/styles.css')+'\n'+read('src/minimal.css')+'\n'+read('src/pwa.css'),'css');
+ const css=asset('styles',read('src/styles.css')+'\n'+read('src/minimal.css')+'\n'+read('src/navigation-adjustments.css')+'\n'+read('src/pwa.css'),'css');
  const vendor=asset('vendor',read('vendor/ocr/tesseract.min.js')+'\n'+read('vendor/jszip.min.js')+'\n'+moduleClassic('vendor/pdf.worker.mjs','pdfjsWorker')+'\n'+moduleClassic('vendor/pdf.mjs','pdfjsLib'),'js');
  const b64=p=>fs.readFileSync(path.join(root,p)).toString('base64');
  const ocr=asset('ocr-assets',JSON.stringify({worker:Buffer.from(read('vendor/ocr/core.wasm.js')+'\n'+read('vendor/ocr/worker.min.js')).toString('base64'),por:b64('vendor/ocr/por.traineddata.gz'),eng:b64('vendor/ocr/eng.traineddata.gz')}),'json');
