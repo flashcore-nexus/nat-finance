@@ -1,6 +1,6 @@
 # Nat Finance 2.0.1 — navegação por finalidade
 
-Revisão local concluída em 24/11/2026. Build `5f9ccd51399430b7f729d9a2`. Ainda não publicada: a implantação V2.0.0 permanece como referência pública. Esta entrega não efetuou push nem acionou o GitHub Pages.
+Revisão concluída em 24/11/2026. Build `5f9ccd51399430b7f729d9a2`. Posteriormente publicada com autorização expressa e validada no endereço público; veja [publicação V2.0.1](V2_0_1-PUBLICACAO.md). As verificações abaixo registram a preparação local; o relatório de publicação acrescenta a atualização e a navegação reais em HTTPS.
 
 ## Alterações
 
@@ -42,7 +42,7 @@ Chrome no Windows, HTTP em localhost com subpasta `/nat-finance/`, perfis isolad
 
 Evidências locais: `tests/evidence-navigation/`, `tests/evidence-pwa/`, `tests/evidence-v2-migration/`. Essas pastas contêm somente dados fictícios e não entram no Git ou na publicação.
 
-**Limites:** larguras móveis em Chrome não equivalem a um iPhone físico. Safari/iPhone, instalação real no sistema e a revisão 2.0.1 no endereço público não foram testados nesta entrega. O teste público depende da publicação autorizada desta revisão.
+**Limites:** larguras móveis em Chrome não equivalem a um iPhone físico. Safari/iPhone e instalação real no sistema não foram testados. A revisão 2.0.1 foi posteriormente testada no endereço público, conforme o relatório de publicação.
 
 ## Executar e revisar
 

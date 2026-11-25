@@ -1,10 +1,10 @@
 # Nat Finance · by FlashCore
 
-**Revisão local 2.0.1 pronta para avaliação:** Visão geral somente para consulta, Cadastros reunidos e navegação por finalidade. A publicação pública continua na V2.0.0; esta revisão ainda não foi publicada. Veja [alterações e testes da navegação 2.0.1](docs/NAVEGACAO-2_0_1.md).
+**V2.0.1 publicada e verificada:** Visão geral somente para consulta, Cadastros reunidos e navegação por finalidade. Veja [alterações da navegação](docs/NAVEGACAO-2_0_1.md) e [publicação e testes em HTTPS](docs/V2_0_1-PUBLICACAO.md).
 
-PWA 2.0.0: refinamento da interface sobre a estrutura 1.5.0 já publicada, sem recriar o aplicativo. Dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para mudanças, execução e revisão. **V2.0 publicada e verificada em 24/11/2026.** [Relatório da implantação e preservação dos dados](docs/V2_0-PUBLICACAO.md).
+PWA com dados financeiros locais, IndexedDB original e backups JSON compatíveis. Sem servidor financeiro, contas de acesso ou sincronização. Consulte [Redesign V2.0](docs/V2_0-REDESIGN.md) para o histórico da interface e [publicação V2.0.0](docs/V2_0-PUBLICACAO.md) para a implantação anterior.
 
-Endereço definitivo de produção: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A versão atual é **2.0.0**; [validação em HTTPS e atualização dos dados locais](docs/V2_0-PUBLICACAO.md). O [relatório 1.5.0](docs/PUBLICACAO-VERIFICADA.md) é histórico. O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
+Endereço definitivo de produção: **https://flashcore-nexus.github.io/nat-finance/**. Repositório: [flashcore-nexus/nat-finance](https://github.com/flashcore-nexus/nat-finance). A versão atual é **2.0.1**; [validação em HTTPS e preservação dos dados locais](docs/V2_0_1-PUBLICACAO.md). O [relatório 1.5.0](docs/PUBLICACAO-VERIFICADA.md) é histórico. O endereço local de desenvolvimento usa um armazenamento diferente; transfira os dados por backup JSON ao começar no endereço definitivo.
 
 ## Executar
 
